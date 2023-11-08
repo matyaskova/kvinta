@@ -7,7 +7,16 @@
 </head>
 <body>
    <h1>Změny na stránce</h1>
-   <p onclick="zmena(this,'greens')">Měníme barvu tohoto písma</p>
-   <script src="zmeny.js"></script>
+   
+   <p onclick="zmena(this,'green')">Měníme barvu tohoto písma</p>
+   <p onclick="zvetsi(this,'20px')">nteger tempor. Mauris dictum facilisis augue. Praesent dapibus. 
+    Curabitur bibendum justo non orci. Phasellus enim erat, 
+    vestibulum vel, aliquam a, posuere eu, velit. Class aptent 
+    taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam erat volutpat. Integer vulputate sem a nibh rutrum consequat. Curabitur ligula sapien, 
+    pulvinar a vestibulum quis, facilisis vel sapien. Aliquam ornare wisi eu metus.</p>
+   <img id ="zarovka" src="off.png" onclick="zarovka(this,'on')">
+   <button onclick="zarovka(document.getElementById('zarovka'),'off')">Vypnout žárovku</button>
+    <script src="zmeny.js"></script>
+
 </body>
 </html>
